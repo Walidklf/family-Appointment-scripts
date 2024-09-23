@@ -1,31 +1,3 @@
-'use strict'
-
-const captcha = {
-  enabled: 'on',
-  apiKey: '',
-}
-
-const autoSubmitForms = {
-  login: 'on',
-  loginCaptcha: 'on',
-  appointmentCaptcha: 'on',
-  visaType: 'off',
-  slotSelection: 'on',
-  applicantSelection: 'on',
-}
-
-const applicants = [
-  {
-    name: 'a',
-    mail: '',
-    password: '',
-    profilePhotoId: '5a8-a210-c8e18f1f0829',
-    applicantCount: 1,
-    category: 'n', // n | normal, pm | premium, pt | primetime
-    location: 'rab',
-    visa: 'sch', // sch, std, famr, nat, work, c1, c2, c3
-  },
-]
 
 const global = unsafeWindow
 
